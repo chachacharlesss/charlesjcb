@@ -612,6 +612,12 @@ p {
     flex-basis: 45%;
     margin: 2.5%;
   }
+
+  #services .service-top {
+    text-align: justify;
+    max-width: 500%;
+    margin: auto;
+  }
   /* End of Services */
 
   /* Project */
@@ -693,11 +699,6 @@ p {
     margin: 1.5%;
   }
 
-  #services .service-top {
-    text-align: justify;
-    max-width: 500%;
-    margin: auto;
-  }
   /* End of Services */
 }
 
