@@ -74,3 +74,9 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function () {
   if (textArray.length) setTimeout(type, newTextDelay);
 });
+
+//BUTTON
+
+document.getElementById(".cta").onclick = function () {
+  location.href = "https://www.messenger.com/t/chachacharlesss";
+};
