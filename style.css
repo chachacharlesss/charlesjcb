@@ -337,7 +337,7 @@ p {
 
 #services .service-top {
   text-align: justify;
-  max-width: 1200px;
+  max-width: 400px;
   margin: auto;
 }
 
@@ -691,6 +691,12 @@ p {
   #services .service-bottom .service-item {
     flex-basis: 22%;
     margin: 1.5%;
+  }
+
+  #services .service-top {
+    text-align: justify;
+    max-width: 500%;
+    margin: auto;
   }
   /* End of Services */
 }
