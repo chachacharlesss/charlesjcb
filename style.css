@@ -278,6 +278,51 @@ p {
   animation-delay: 2.5s;
 }
 
+#hero p {
+  color: #fafafa;
+  top: 0;
+  left: 0;
+  font-size: 4rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  overflow: hidden;
+  padding: 0.5rem;
+  padding: 15px 0;
+}
+
+#hero .typed-text {
+  font-weight: 800;
+  color: #fbd46d;
+}
+#hero .cursor {
+  display: inline-block;
+  width: 3px;
+  background-color: #fafafa;
+  margin-left: 0rem;
+  animation: blink 1s infinite;
+}
+#hero .cursor.typing {
+  animation: none;
+}
+
+@keyframes blink {
+  0% {
+    background-color: #fafafa;
+  }
+  49% {
+    background-color: #fafafa;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #fafafa;
+  }
+}
+
 /* End Of Hero Section */
 
 /* Services Section */
