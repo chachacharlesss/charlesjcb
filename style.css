@@ -282,7 +282,7 @@ p {
   color: #fafafa;
   top: 0;
   left: 0;
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 500;
   letter-spacing: 0.1rem;
   overflow: hidden;
@@ -601,6 +601,9 @@ p {
   /* Hero */
   #hero h1 {
     font-size: 7rem;
+  }
+  #hero p {
+    font-size: 4rem;
   }
   /* END OF HERO */
 
